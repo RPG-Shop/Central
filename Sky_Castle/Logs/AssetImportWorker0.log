@@ -1,0 +1,309 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'zh' Physical Memory: 7886 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Desktop/Central/Sky_Castle
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+5420
+Successfully changed project path to: C:/Users/User/Desktop/Central/Sky_Castle
+C:/Users/User/Desktop/Central/Sky_Castle
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 87.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Central/Sky_Castle/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX330 (ID=0x1d16)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003825 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004394 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Central\Sky_Castle\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Central\Sky_Castle\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.172 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1173ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (399.4 KB). Loaded Objects now: 3965.
+Memory consumption went from 137.7 MB to 137.3 MB.
+Total: 4.327900 ms (FindLiveObjects: 0.689100 ms CreateObjectMapping: 0.781900 ms MarkObjects: 2.629200 ms  DeleteObjects: 0.225200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 424231.623217 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1
+  artifactKey: Guid(8e61fc8fdcf353940a059285caf58acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1 using Guid(8e61fc8fdcf353940a059285caf58acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0b6ea4e2cb1b7dd29ce66e45ba1318') in 0.028511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.676432 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-texture.png
+  artifactKey: Guid(a4e588724535b9a429ff770377c59459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-texture.png using Guid(a4e588724535b9a429ff770377c59459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd134f46fc6210cc59eff90306dcb8a') in 0.122975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.420494 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-specular.png
+  artifactKey: Guid(96180046894ac8f4eb7061658af63bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-specular.png using Guid(96180046894ac8f4eb7061658af63bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12313d6c7bc83d1eaa92c689a6088a6') in 0.026966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.753835 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Materials
+  artifactKey: Guid(8a479ab04c0332443b399d61a58c22ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Materials using Guid(8a479ab04c0332443b399d61a58c22ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e19bff9394a069267ba188fffc1d0a6') in 0.015859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.536974 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-displacement.tif
+  artifactKey: Guid(62f3df1e794126b4c90005134b52abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-displacement.tif using Guid(62f3df1e794126b4c90005134b52abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e900bbe4b32a4e59219fcf31708ff8') in 0.040468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.696267 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-diffuse.png
+  artifactKey: Guid(87fd36be6e995834995c19bce86843b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-diffuse.png using Guid(87fd36be6e995834995c19bce86843b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7253c458ba0f06bb206ee1e9ac6195cf') in 0.025805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.402653 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-normal.png
+  artifactKey: Guid(a77b797f3ba64d7448d23fa209c44149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Concrete 1/Concrete 1-normal.png using Guid(a77b797f3ba64d7448d23fa209c44149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e7e9e4f6bc804e1d8364c08d1afe09') in 0.058215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 427.472910 seconds.
+  path: Assets/Materials/arch&backward_building/Metal 1-diffuse.png
+  artifactKey: Guid(e87e102de9818074789999a9fc66d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/Metal 1-diffuse.png using Guid(e87e102de9818074789999a9fc66d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb3fe34aa481af4216c3766e8a9f95e') in 0.038857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.257804 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Metal 1/Metal 1-displacement.tif
+  artifactKey: Guid(450fd48c565eb484e82e476ec6ed32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Metal 1/Metal 1-displacement.tif using Guid(450fd48c565eb484e82e476ec6ed32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bbafc89b8263fa158e7fb02d97e9b2') in 0.029409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.526874 seconds.
+  path: Assets/Materials/arch&backward_building/Metal 1-texture.png
+  artifactKey: Guid(5502ce8f5edf2504a901c0b3cb951713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/Metal 1-texture.png using Guid(5502ce8f5edf2504a901c0b3cb951713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807d804a0b39af629b189bfaa2a5c42b') in 0.023599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.597915 seconds.
+  path: Assets/Materials/arch&backward_building/Rock 1-ao.tif
+  artifactKey: Guid(9f05acceb5d103a4aa01b17144e136b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/Rock 1-ao.tif using Guid(9f05acceb5d103a4aa01b17144e136b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9829d595634840b5e3467fc156527d64') in 0.023429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.621676 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Rock 1/Rock 1-displacement.tif
+  artifactKey: Guid(6f8c1af6a7b135f4e8bf965fdf824bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Rock 1/Rock 1-displacement.tif using Guid(6f8c1af6a7b135f4e8bf965fdf824bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c91b887b9b74679113b3f2c9babf22d') in 0.028573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.968652 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Sand 1
+  artifactKey: Guid(38194d4eaa5eb004a86fff1fc26b1b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Sand 1 using Guid(38194d4eaa5eb004a86fff1fc26b1b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b5a08f4ad03bb72516830eec1062e5') in 0.018391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.103022 seconds.
+  path: Assets/Materials/arch&backward_building/Sand 1-diffuse.png
+  artifactKey: Guid(60e712710ed75044b978c38eeb658446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/Sand 1-diffuse.png using Guid(60e712710ed75044b978c38eeb658446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816939d21720615855e246a4065842fa') in 0.025076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.288538 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Sand 1/Sand 1-normal.png
+  artifactKey: Guid(2c158ac6e82ac01468482814dd522558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Sand 1/Sand 1-normal.png using Guid(2c158ac6e82ac01468482814dd522558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dbcc348012de3a9970585bf09f7ed1') in 0.028118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.135345 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Sand 1/Sand 1-specular.png
+  artifactKey: Guid(67b09d63b6c2c424bb0c760959e040ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Sand 1/Sand 1-specular.png using Guid(67b09d63b6c2c424bb0c760959e040ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84a2e5f87fa6ed4a2e5773b7c634cde') in 0.022390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 169.823890 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Wood 1
+  artifactKey: Guid(b11b225fc65085c44a4afeb25413986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Wood 1 using Guid(b11b225fc65085c44a4afeb25413986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa85e4c1502dba9c5c0d6d05c7c109d2') in 0.017396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.478718 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Snow 1
+  artifactKey: Guid(9aa57c2aa61b99847a60beed5b9f1f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Snow 1 using Guid(9aa57c2aa61b99847a60beed5b9f1f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ddabbd44a7be7e7a2a0013ecf6df5e') in 0.016103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.251052 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Foliage 1
+  artifactKey: Guid(4dd95315ad0871b4dbbf1b3928963992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Foliage 1 using Guid(4dd95315ad0871b4dbbf1b3928963992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54214869c740f321b80f8c2aea09a6d') in 0.020972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.533345 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Tiles 1
+  artifactKey: Guid(3fecf88a4be0081409de08a74d470e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Tiles 1 using Guid(3fecf88a4be0081409de08a74d470e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ece4aa91fe645c92a1fe238f9e445e') in 0.016633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.024553 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Metal 1/Metal 1-specular.png
+  artifactKey: Guid(aa443a0855f326d42b0f9a92a30f1b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Metal 1/Metal 1-specular.png using Guid(aa443a0855f326d42b0f9a92a30f1b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb9bab9b18855a61142d718709617f4') in 0.029777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.336682 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Rock 1
+  artifactKey: Guid(7aff3aa281fc6b44f9177dd7436dbe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Rock 1 using Guid(7aff3aa281fc6b44f9177dd7436dbe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77fc828971a4227029f43c0e99f88a7') in 0.015805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.191277 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Tiles 1/Tiles 1-diffuse.png
+  artifactKey: Guid(905fdf5ecb0c7c5489581173e2bbd88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Tiles 1/Tiles 1-diffuse.png using Guid(905fdf5ecb0c7c5489581173e2bbd88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c825b627f2413fb87bcc690e394fbdc') in 0.027794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.324854 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Tiles 1/Tiles 1-displacement.tif
+  artifactKey: Guid(8950d239a927bc8478787bab03eb501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Tiles 1/Tiles 1-displacement.tif using Guid(8950d239a927bc8478787bab03eb501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4f99aa2e907ddafb3f2ac765813908') in 0.028418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1102.706682 seconds.
+  path: Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-texture.png
+  artifactKey: Guid(0cd977654fbead34f8a2113d9f708c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arch&backward_building/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-texture.png using Guid(0cd977654fbead34f8a2113d9f708c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fecc7dbd808efb92af2afe5175e00f') in 0.027865 seconds 
